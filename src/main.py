@@ -8,6 +8,11 @@ def farewell(name: str) -> str:
     return f"Goodbye, {name}!"
 
 
+def shout(name: str) -> str:
+    """Return an uppercase greeting."""
+    return f"HELLO, {name.upper()}!"
+
+
 if __name__ == "__main__":
     print(greet("world"))
     print(farewell("world"))
